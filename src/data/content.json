@@ -1,0 +1,234 @@
+{
+  "company": {
+    "name": "Araitech Dev",
+    "tagline": "Solusi Digital Terpercaya untuk Bisnis Anda",
+    "description": "Kami adalah agensi pengembangan perangkat lunak yang berfokus pada pembuatan website berkualitas tinggi. Dengan pendekatan profesional dan santai, kami memastikan setiap proyek berjalan lancar dari awal hingga akhir.",
+    "logo": "/logo.svg",
+    "whatsapp": "6281234567890",
+    "email": "hello@araitech.dev",
+    "address": "Jakarta, Indonesia",
+    "instagram": "https://instagram.com/araitechdev",
+    "linkedin": "https://linkedin.com/company/araitechdev",
+    "github": "https://github.com/araitechdev"
+  },
+  "navbar": {
+    "links": [
+      { "label": "Beranda", "href": "#beranda" },
+      { "label": "Tentang", "href": "#tentang" },
+      { "label": "Layanan", "href": "#layanan" },
+      { "label": "Portofolio", "href": "#portofolio" },
+      { "label": "Hubungi Kami", "href": "#kontak" }
+    ]
+  },
+  "hero": {
+    "headline": "Wujudkan Ide Anda Menjadi Website Profesional",
+    "subheadline": "Kami membantu bisnis dan individu membangun kehadiran digital yang kuat dengan website modern, cepat, dan responsif.",
+    "ctaText": "Konsultasi Gratis",
+    "ctaLink": "#kontak",
+    "secondaryCtaText": "Lihat Portofolio",
+    "secondaryCtaLink": "#portofolio"
+  },
+  "about": {
+    "sectionTitle": "Tentang Kami",
+    "sectionSubtitle": "Kenapa memilih Araitech Dev?",
+    "description": "Araitech Dev adalah agensi pengembangan website yang berkomitmen menghadirkan solusi digital terbaik. Kami menggabungkan keahlian teknis dengan pemahaman mendalam tentang kebutuhan klien untuk menciptakan produk yang tidak hanya indah, tetapi juga fungsional dan efektif.",
+    "values": [
+      {
+        "icon": "shield",
+        "title": "Terpercaya",
+        "description": "Kami menjaga kepercayaan klien dengan transparansi penuh di setiap tahap pengerjaan proyek."
+      },
+      {
+        "icon": "clock",
+        "title": "Tepat Waktu",
+        "description": "Komitmen kami terhadap deadline memastikan proyek Anda selesai sesuai jadwal yang disepakati."
+      },
+      {
+        "icon": "code",
+        "title": "Kualitas Kode",
+        "description": "Kami menulis kode yang bersih, terstruktur, dan mudah dimaintenance untuk keberlanjutan jangka panjang."
+      },
+      {
+        "icon": "heart",
+        "title": "Pendekatan Personal",
+        "description": "Setiap proyek kami tangani dengan perhatian khusus dan komunikasi yang terbuka dengan klien."
+      }
+    ]
+  },
+  "services": {
+    "sectionTitle": "Layanan Kami",
+    "sectionSubtitle": "Pilih paket yang sesuai dengan kebutuhan Anda",
+    "packages": [
+      {
+        "name": "Starter",
+        "type": "Website Statis",
+        "description": "Cocok untuk personal branding dan portofolio sederhana. Website modern dan responsif untuk menampilkan profil Anda.",
+        "priceRange": "Rp 1.5 Juta - Rp 4 Juta",
+        "features": [
+          "Desain responsif & modern",
+          "Hingga 5 halaman statis",
+          "Optimasi SEO dasar",
+          "Integrasi media sosial",
+          "Hosting gratis 1 tahun",
+          "Support 1 bulan"
+        ],
+        "popular": false,
+        "icon": "globe"
+      },
+      {
+        "name": "Professional",
+        "type": "Website + CMS",
+        "description": "Ideal untuk bisnis yang ingin mengelola konten secara mandiri. Dilengkapi Content Management System yang mudah digunakan.",
+        "priceRange": "Rp 4 Juta - Rp 10 Juta",
+        "features": [
+          "Semua fitur Starter",
+          "Content Management System",
+          "Blog & artikel dinamis",
+          "Dashboard admin",
+          "Galeri & portofolio dinamis",
+          "Analitik website",
+          "Support 3 bulan"
+        ],
+        "popular": true,
+        "icon": "layers"
+      },
+      {
+        "name": "Enterprise",
+        "type": "Website Custom",
+        "description": "Solusi lengkap untuk kebutuhan khusus. Fitur custom sesuai permintaan, dari e-commerce hingga sistem booking.",
+        "priceRange": "Rp 10 Juta+",
+        "features": [
+          "Semua fitur Professional",
+          "Fitur custom sesuai kebutuhan",
+          "Integrasi API pihak ketiga",
+          "Sistem pembayaran online",
+          "Database & backend custom",
+          "Performa & keamanan tinggi",
+          "Support 6 bulan",
+          "Maintenance berkala"
+        ],
+        "popular": false,
+        "icon": "rocket"
+      }
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Portofolio",
+    "sectionSubtitle": "Beberapa proyek terbaik yang telah kami kerjakan",
+    "projects": [
+      {
+        "title": "Toko Kopi Nusantara",
+        "category": "Website + CMS",
+        "description": "Website profil dan pemesanan online untuk kedai kopi lokal dengan fitur menu interaktif.",
+        "image": "/portfolio/project-1.jpg",
+        "tags": ["Next.js", "Tailwind", "CMS"]
+      },
+      {
+        "title": "Studio Yoga Bali",
+        "category": "Website Statis",
+        "description": "Landing page elegan untuk studio yoga dengan fokus pada visual dan pengalaman pengguna.",
+        "image": "/portfolio/project-2.jpg",
+        "tags": ["React", "Framer Motion", "Responsive"]
+      },
+      {
+        "title": "Batik Marketplace",
+        "category": "Website Custom",
+        "description": "Platform e-commerce untuk pengrajin batik dengan sistem pembayaran dan manajemen produk.",
+        "image": "/portfolio/project-3.jpg",
+        "tags": ["Next.js", "PostgreSQL", "Stripe"]
+      },
+      {
+        "title": "Klinik Sehat Sentosa",
+        "category": "Website + CMS",
+        "description": "Website klinik dengan sistem booking appointment online dan manajemen jadwal dokter.",
+        "image": "/portfolio/project-4.jpg",
+        "tags": ["TypeScript", "Prisma", "CMS"]
+      },
+      {
+        "title": "Rumah Makan Padang Jaya",
+        "category": "Website Statis",
+        "description": "Website restoran dengan menu digital, lokasi, dan integrasi Google Maps.",
+        "image": "/portfolio/project-5.jpg",
+        "tags": ["React", "Google Maps", "SEO"]
+      },
+      {
+        "title": "PT Bangun Karya",
+        "category": "Website Custom",
+        "description": "Company profile dengan dashboard project tracking dan portal klien terintegrasi.",
+        "image": "/portfolio/project-6.jpg",
+        "tags": ["Next.js", "Dashboard", "API"]
+      }
+    ]
+  },
+  "testimonials": {
+    "sectionTitle": "Apa Kata Klien Kami",
+    "items": [
+      {
+        "name": "Budi Santoso",
+        "role": "Pemilik Toko Kopi Nusantara",
+        "text": "Araitech Dev sangat profesional dan mudah diajak komunikasi. Website kami jadi lebih modern dan pelanggan kami suka!",
+        "rating": 5
+      },
+      {
+        "name": "Sari Dewi",
+        "role": "Founder Studio Yoga Bali",
+        "text": "Proses pengerjaannya cepat dan hasilnya sangat memuaskan. Desainnya elegan dan sesuai dengan brand kami.",
+        "rating": 5
+      },
+      {
+        "name": "Ahmad Ridwan",
+        "role": "CEO PT Bangun Karya",
+        "text": "Tim Araitech sangat responsif dan mengerti kebutuhan bisnis kami. Hasilnya melebihi ekspektasi!",
+        "rating": 5
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Siap Memulai Proyek Anda?",
+    "description": "Konsultasikan kebutuhan website Anda secara gratis. Kami siap membantu mewujudkan ide Anda menjadi kenyataan.",
+    "buttonText": "Hubungi Kami via WhatsApp",
+    "secondaryText": "Atau kirim email ke"
+  },
+  "contact": {
+    "sectionTitle": "Hubungi Kami",
+    "sectionSubtitle": "Kami siap membantu mewujudkan website impian Anda",
+    "formFields": {
+      "name": "Nama Lengkap",
+      "email": "Email",
+      "phone": "Nomor WhatsApp",
+      "service": "Layanan yang Diminati",
+      "message": "Ceritakan Kebutuhan Anda",
+      "submit": "Kirim Pesan via WhatsApp"
+    },
+    "info": [
+      {
+        "icon": "whatsapp",
+        "label": "WhatsApp",
+        "value": "+62 812-3456-7890",
+        "link": "https://wa.me/6281234567890"
+      },
+      {
+        "icon": "email",
+        "label": "Email",
+        "value": "hello@araitech.dev",
+        "link": "mailto:hello@araitech.dev"
+      },
+      {
+        "icon": "location",
+        "label": "Lokasi",
+        "value": "Jakarta, Indonesia",
+        "link": null
+      },
+      {
+        "icon": "instagram",
+        "label": "Instagram",
+        "value": "@araitechdev",
+        "link": "https://instagram.com/araitechdev"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2026 Araitech Dev. Seluruh hak cipta dilindungi.",
+    "madeWith": "Dibuat dengan ❤️ di Indonesia"
+  }
+}
