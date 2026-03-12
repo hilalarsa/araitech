@@ -1,6 +1,6 @@
 "use client";
 
-import { FaWhatsapp, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaWhatsapp, FaLinkedin, FaGithub } from "react-icons/fa";
 import { HiArrowUp } from "react-icons/hi";
 import content from "@/data/content.json";
 
@@ -11,7 +11,6 @@ export default function Footer() {
 
   const socials = [
     { icon: FaWhatsapp, href: `https://wa.me/${content.company.whatsapp}`, label: "WhatsApp" },
-    { icon: FaInstagram, href: content.company.instagram, label: "Instagram" },
     { icon: FaLinkedin, href: content.company.linkedin, label: "LinkedIn" },
     { icon: FaGithub, href: content.company.github, label: "GitHub" },
   ];

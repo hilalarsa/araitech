@@ -3,21 +3,19 @@
 import { useRef, useState } from "react";
 import { motion, useInView } from "framer-motion";
 import { HiLocationMarker, HiMail } from "react-icons/hi";
-import { FaWhatsapp, FaInstagram } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 import content from "@/data/content.json";
 
 const contactIconMap: Record<string, React.ElementType> = {
   whatsapp: FaWhatsapp,
   email: HiMail,
   location: HiLocationMarker,
-  instagram: FaInstagram,
 };
 
 const contactColorMap: Record<string, string> = {
   whatsapp: "bg-green-500/10 text-green-500 group-hover:bg-green-500",
   email: "bg-blue-500/10 text-blue-500 group-hover:bg-blue-500",
   location: "bg-red-500/10 text-red-500 group-hover:bg-red-500",
-  instagram: "bg-pink-500/10 text-pink-500 group-hover:bg-pink-500",
 };
 
 export default function Contact() {
