@@ -59,31 +59,43 @@ export default function Services() {
                 )}
 
                 <div className="mb-6">
-                  <div className={`w-14 h-14 rounded-xl flex items-center justify-center mb-4 ${
-                    pkg.popular ? "bg-primary/20" : "bg-primary/10"
-                  }`}>
-                    <Icon className={`text-2xl ${pkg.popular ? "text-accent" : "text-primary"}`} />
+                  <div
+                    className={`w-14 h-14 rounded-xl flex items-center justify-center mb-4 ${
+                      pkg.popular ? "bg-primary/20" : "bg-primary/10"
+                    }`}
+                  >
+                    <Icon
+                      className={`text-2xl ${pkg.popular ? "text-accent" : "text-primary"}`}
+                    />
                   </div>
                   <h3 className="text-2xl font-bold mb-1">{pkg.name}</h3>
-                  <p className={`text-sm font-medium mb-3 ${
-                    pkg.popular ? "text-accent" : "text-primary"
-                  }`}>
+                  <p
+                    className={`text-sm font-medium mb-3 ${
+                      pkg.popular ? "text-accent" : "text-primary"
+                    }`}
+                  >
                     {pkg.type}
                   </p>
-                  <p className={`text-sm leading-relaxed ${
-                    pkg.popular ? "text-white/70" : "text-muted"
-                  }`}>
+                  <p
+                    className={`text-sm leading-relaxed ${
+                      pkg.popular ? "text-white/70" : "text-muted"
+                    }`}
+                  >
                     {pkg.description}
                   </p>
                 </div>
 
                 {/* Price */}
-                <div className={`py-4 mb-6 border-y ${
-                  pkg.popular ? "border-white/10" : "border-border"
-                }`}>
-                  <p className={`text-xl font-bold ${
-                    pkg.popular ? "text-white" : "text-foreground"
-                  }`}>
+                <div
+                  className={`py-4 mb-6 border-y ${
+                    pkg.popular ? "border-white/10" : "border-border"
+                  }`}
+                >
+                  <p
+                    className={`text-xl font-bold ${
+                      pkg.popular ? "text-white" : "text-foreground"
+                    }`}
+                  >
                     {pkg.priceRange}
                   </p>
                 </div>
@@ -92,12 +104,16 @@ export default function Services() {
                 <ul className="space-y-3 mb-8 flex-1">
                   {pkg.features.map((feature) => (
                     <li key={feature} className="flex items-start gap-3">
-                      <HiCheck className={`mt-0.5 flex-shrink-0 ${
-                        pkg.popular ? "text-accent" : "text-primary"
-                      }`} />
-                      <span className={`text-sm ${
-                        pkg.popular ? "text-white/80" : "text-muted"
-                      }`}>
+                      <HiCheck
+                        className={`mt-0.5 flex-shrink-0 ${
+                          pkg.popular ? "text-accent" : "text-primary"
+                        }`}
+                      />
+                      <span
+                        className={`text-sm ${
+                          pkg.popular ? "text-white/80" : "text-muted"
+                        }`}
+                      >
                         {feature}
                       </span>
                     </li>
@@ -121,6 +137,19 @@ export default function Services() {
             );
           })}
         </div>
+
+        {/* Disclaimer */}
+        <motion.div
+          ref={ref}
+          initial={{ opacity: 0, y: 20 }}
+          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.6 }}
+          className="text-center max-w-3xl mx-auto mt-16"
+        >
+          <h2 className="text-md sm:text-md lg:text-md font-bold text-foreground mt-6">
+            {content.services.disclaimer}
+          </h2>
+        </motion.div>
       </div>
     </section>
   );

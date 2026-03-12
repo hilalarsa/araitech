@@ -3,13 +3,12 @@
     "name": "Araitech Dev",
     "tagline": "Solusi Digital Terpercaya untuk Bisnis Anda",
     "description": "Kami adalah agensi pengembangan perangkat lunak yang berfokus pada pembuatan website berkualitas tinggi. Dengan pendekatan profesional dan santai, kami memastikan setiap proyek berjalan lancar dari awal hingga akhir.",
-    "logo": "/logo.svg",
-    "whatsapp": "6281234567890",
-    "email": "hello@araitech.dev",
-    "address": "Jakarta, Indonesia",
-    "instagram": "https://instagram.com/araitechdev",
-    "linkedin": "https://linkedin.com/company/araitechdev",
-    "github": "https://github.com/araitechdev"
+    "logo": "/icon.png",
+    "whatsapp": "6281259020736",
+    "email": "hilalarsa@gmail.com",
+    "address": "Jawa Timur, Indonesia",
+    "linkedin": "https://linkedin.com/hilalarsa",
+    "github": "https://github.com/hilalarsa"
   },
   "navbar": {
     "links": [
@@ -57,19 +56,19 @@
   },
   "services": {
     "sectionTitle": "Layanan Kami",
-    "sectionSubtitle": "Pilih paket yang sesuai dengan kebutuhan Anda",
+    "sectionSubtitle": "Pilih paket yang sesuai dengan kebutuhan Anda.",
+    "disclaimer": "Harga diatas tidak termasuk domain",
     "packages": [
       {
         "name": "Starter",
         "type": "Website Statis",
         "description": "Cocok untuk personal branding dan portofolio sederhana. Website modern dan responsif untuk menampilkan profil Anda.",
-        "priceRange": "Rp 1.5 Juta - Rp 4 Juta",
+        "priceRange": "Rp 1.500.000 - Rp 4.000.000",
         "features": [
           "Desain responsif & modern",
           "Hingga 5 halaman statis",
           "Optimasi SEO dasar",
           "Integrasi media sosial",
-          "Hosting gratis 1 tahun",
           "Support 1 bulan"
         ],
         "popular": false,
@@ -79,15 +78,14 @@
         "name": "Professional",
         "type": "Website + CMS",
         "description": "Ideal untuk bisnis yang ingin mengelola konten secara mandiri. Dilengkapi Content Management System yang mudah digunakan.",
-        "priceRange": "Rp 4 Juta - Rp 10 Juta",
+        "priceRange": "Rp 4.000.000 - Rp 10.000.000",
         "features": [
           "Semua fitur Starter",
           "Content Management System",
           "Blog & artikel dinamis",
           "Dashboard admin",
           "Galeri & portofolio dinamis",
-          "Analitik website",
-          "Support 3 bulan"
+          "Support 2 bulan"
         ],
         "popular": true,
         "icon": "layers"
@@ -96,7 +94,7 @@
         "name": "Enterprise",
         "type": "Website Custom",
         "description": "Solusi lengkap untuk kebutuhan khusus. Fitur custom sesuai permintaan, dari e-commerce hingga sistem booking.",
-        "priceRange": "Rp 10 Juta+",
+        "priceRange": "Rp 10.000.000+",
         "features": [
           "Semua fitur Professional",
           "Fitur custom sesuai kebutuhan",
@@ -104,7 +102,7 @@
           "Sistem pembayaran online",
           "Database & backend custom",
           "Performa & keamanan tinggi",
-          "Support 6 bulan",
+          "Support 3 bulan",
           "Maintenance berkala"
         ],
         "popular": false,
@@ -117,69 +115,46 @@
     "sectionSubtitle": "Beberapa proyek terbaik yang telah kami kerjakan",
     "projects": [
       {
-        "title": "Toko Kopi Nusantara",
+        "title": "Inisiatif Kahayan Hilir",
+        "category": "Static Site",
+        "description": "Website klinik dengan sistem booking appointment online dan manajemen jadwal dokter.",
+        "image": "/portfolio/project-4.jpg",
+        "tags": ["Javascript", "Wordpress", "CMS"]
+      },
+      {
+        "title": "IA Toki Website Tes Masuk STAN",
         "category": "Website + CMS",
-        "description": "Website profil dan pemesanan online untuk kedai kopi lokal dengan fitur menu interaktif.",
+        "description": "Website kumpulan soal masuk STAN",
         "image": "/portfolio/project-1.jpg",
-        "tags": ["Next.js", "Tailwind", "CMS"]
+        "tags": ["Code Igniter", "PHP", "CMS"]
       },
       {
-        "title": "Studio Yoga Bali",
-        "category": "Website Statis",
-        "description": "Landing page elegan untuk studio yoga dengan fokus pada visual dan pengalaman pengguna.",
+        "title": "KPSHK Tracking System",
+        "category": "Dynamic Website",
+        "description": "Website untuk geo-tracking wilayah kehutanan",
         "image": "/portfolio/project-2.jpg",
-        "tags": ["React", "Framer Motion", "Responsive"]
+        "tags": ["Next.js", "Google Maps", "Tailwind"]
       },
       {
-        "title": "Batik Marketplace",
-        "category": "Website Custom",
-        "description": "Platform e-commerce untuk pengrajin batik dengan sistem pembayaran dan manajemen produk.",
+        "title": "Company Profile Site for Kehutanan",
+        "category": "Static Site",
+        "description": "Website statis untuk konten artikel Kehutanan",
         "image": "/portfolio/project-3.jpg",
         "tags": ["Next.js", "PostgreSQL", "Stripe"]
       },
       {
-        "title": "Klinik Sehat Sentosa",
-        "category": "Website + CMS",
-        "description": "Website klinik dengan sistem booking appointment online dan manajemen jadwal dokter.",
-        "image": "/portfolio/project-4.jpg",
-        "tags": ["TypeScript", "Prisma", "CMS"]
+        "title": "Lifeweek",
+        "category": "Dynamic Website",
+        "description": "Website untuk tracking daily log record",
+        "image": "/portfolio/project-2.jpg",
+        "tags": ["Next.js", "Tailwind"]
       },
       {
-        "title": "Rumah Makan Padang Jaya",
-        "category": "Website Statis",
-        "description": "Website restoran dengan menu digital, lokasi, dan integrasi Google Maps.",
-        "image": "/portfolio/project-5.jpg",
-        "tags": ["React", "Google Maps", "SEO"]
-      },
-      {
-        "title": "PT Bangun Karya",
-        "category": "Website Custom",
-        "description": "Company profile dengan dashboard project tracking dan portal klien terintegrasi.",
-        "image": "/portfolio/project-6.jpg",
-        "tags": ["Next.js", "Dashboard", "API"]
-      }
-    ]
-  },
-  "testimonials": {
-    "sectionTitle": "Apa Kata Klien Kami",
-    "items": [
-      {
-        "name": "Budi Santoso",
-        "role": "Pemilik Toko Kopi Nusantara",
-        "text": "Araitech Dev sangat profesional dan mudah diajak komunikasi. Website kami jadi lebih modern dan pelanggan kami suka!",
-        "rating": 5
-      },
-      {
-        "name": "Sari Dewi",
-        "role": "Founder Studio Yoga Bali",
-        "text": "Proses pengerjaannya cepat dan hasilnya sangat memuaskan. Desainnya elegan dan sesuai dengan brand kami.",
-        "rating": 5
-      },
-      {
-        "name": "Ahmad Ridwan",
-        "role": "CEO PT Bangun Karya",
-        "text": "Tim Araitech sangat responsif dan mengerti kebutuhan bisnis kami. Hasilnya melebihi ekspektasi!",
-        "rating": 5
+        "title": "Trading Tracker",
+        "category": "Dynamic Website",
+        "description": "Website untuk pelacakan dan pemasangan harga pasar IHSG",
+        "image": "/portfolio/project-2.jpg",
+        "tags": ["Next.js", "Trading API", "Tailwind"]
       }
     ]
   },
@@ -204,26 +179,20 @@
       {
         "icon": "whatsapp",
         "label": "WhatsApp",
-        "value": "+62 812-3456-7890",
-        "link": "https://wa.me/6281234567890"
+        "value": "+62 812-5902-0736",
+        "link": "https://wa.me/6281259020736"
       },
       {
         "icon": "email",
         "label": "Email",
-        "value": "hello@araitech.dev",
-        "link": "mailto:hello@araitech.dev"
+        "value": "hilalarsa@gmail.com",
+        "link": "mailto:hilalarsa@gmail.com"
       },
       {
         "icon": "location",
         "label": "Lokasi",
-        "value": "Jakarta, Indonesia",
+        "value": "Jawa Timur, Indonesia",
         "link": null
-      },
-      {
-        "icon": "instagram",
-        "label": "Instagram",
-        "value": "@araitechdev",
-        "link": "https://instagram.com/araitechdev"
       }
     ]
   },

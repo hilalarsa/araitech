@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from 'next/image'
 import { motion, AnimatePresence } from "framer-motion";
 import { HiMenu, HiX } from "react-icons/hi";
 import content from "@/data/content.json";
@@ -45,9 +46,10 @@ export default function Navbar() {
             onClick={(e) => handleLinkClick(e, "#beranda")}
             className="flex items-center gap-2 group"
           >
-            <div className="w-9 h-9 rounded-lg bg-primary flex items-center justify-center text-white font-bold text-lg group-hover:scale-110 transition-transform">
+            {/* <div className="w-9 h-9 rounded-lg bg-primary flex items-center justify-center text-white font-bold text-lg group-hover:scale-110 transition-transform">
               A
-            </div>
+            </div> */}
+            <Image src="/icon.png" width={100} height={100} alt="logo"/>
             <span className={`font-bold text-lg tracking-tight transition-colors ${
               isScrolled ? "text-foreground" : "text-white"
             }`}>

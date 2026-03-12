@@ -97,9 +97,9 @@ export default function Hero() {
               className="flex gap-8 mt-12 pt-8 border-t border-white/10"
             >
               {[
-                { number: "50+", label: "Proyek Selesai" },
-                { number: "30+", label: "Klien Puas" },
-                { number: "3+", label: "Tahun Pengalaman" },
+                { number: "3+", label: "Paket produk" },
+                { number: "10+", label: "Klien Puas" },
+                { number: "8+", label: "Tahun Pengalaman" },
               ].map((stat) => (
                 <div key={stat.label}>
                   <div className="text-2xl font-bold text-white">{stat.number}</div>

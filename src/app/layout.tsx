@@ -24,6 +24,11 @@ export const metadata: Metadata = {
     "agensi website",
     "jasa web",
   ],
+  icons: {
+    icon: "/icon.png",
+    shortcut: "/icon.png",
+    apple: "/icon.png",
+  },
   openGraph: {
     title: "Araitech Dev - Solusi Digital Terpercaya",
     description:
